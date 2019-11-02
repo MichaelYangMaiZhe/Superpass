@@ -8,7 +8,7 @@ import numpy as np
 from pymongo import MongoClient
 from uuid import uuid1
 
-client = MongoClient('mongodb://program:fcytguihbjvgfuyhijkbascasdfa134HKGK18@149.28.110.33:27017/admin')
+client = MongoClient('mongodb://*****:******@**.**.**.**:*****/*****')
 db = client.face
 face_encodings = db.face_encodings
 login_log = db.login_log
