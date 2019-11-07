@@ -86,8 +86,8 @@ def feedback():
     email = request.form['email']
     msg = request.form['msg']
 
-    user = 'michael1120040819@gmail.com'
-    pwd = 'yvwlabqudswllfqg'
+    user = *****
+    pwd = *****
 
     email_text = """
     Feedback from Facial recognition system!
